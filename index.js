@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://inventory-fe.vercel.app"],
+    origin: ["http://localhost:3000", "https://oic-frontend-chi.vercel.app/"],
     credentials: true,
   })
 );
